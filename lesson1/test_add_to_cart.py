@@ -8,7 +8,7 @@ def test_add_item_to_cart():
     driver.get("https://www.saucedemo.com/")
     username_field = driver.find_element(By.XPATH, '//input[@data-test="username"]')
     username_field.send_keys("standard_user")
-
+jkj
     password_field = driver.find_element(By.XPATH, '//input[@data-test="password"]')
     password_field.send_keys("secret_sauce")
 
