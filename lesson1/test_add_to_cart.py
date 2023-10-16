@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 driver = webdriver.Chrome()
+dsddwd
 
 
 def test_add_item_to_cart():
